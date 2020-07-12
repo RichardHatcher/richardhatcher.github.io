@@ -1,37 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'. 
-# If you change this file, please restart the server process.
+# Your Name or Company
+title: Richard Hatcher
 
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Description of your website. This is used for social sharing.
+description:  The beautiful website of artist, poet, craftsperson, cyclist, and avid juggler, Richard Hatcher
 
-#theme: jekyll-agency
-remote_theme: raviriley/agency-jekyll-theme
+# A brief blurb about yourself
+content: Heyyo! I would tailor this message based on the intent of the user but I have no idea why anybody is on this site. But hey, welcome nonetheless. I hope that you are having a blast today.
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
+# Add your social links
+social:
+  - platform: github
+    url: https://github.com/RichardHatcher
+  - platform: facebook
+    url: https://www.facebook.com/richard.hatcher.9469
+  - platform: twitter
+    url: https://twitter.com/My_Vroom
+  - platform: linkedin
+    url: https://www.linkedin.com/in/richard-hatcher-93a6343/
 
-title      : Agency Jekyll Theme Demo
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
-author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
-
-analytics:
-  google: #Google Analytics tracking code here
-
-collections:
-  portfolio:
-
+# General settings
+# url: http://brianmaierjr.github.com/uni
+# baseurl: "/uni"
 markdown: kramdown
+sharing_image: share.jpg
+#google_analytics: "UA-58263416-1" # google analytics tracking
 
-plugins:
-  - jekyll-remote-theme
+#### LAYOUT OPTIONS #####
+
+# Half layout
+half_side: right
+
+# Full layout
+full_text_position: right # left, right or center
