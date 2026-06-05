@@ -10,11 +10,9 @@ content: Heyyo! I would tailor this message based on the intent of the user but 
 # Add your social links
 social:
   - platform: github
-    url: https://github.com/RichardHatcher
+    url: https://github.com/dkkytech
   - platform: facebook
     url: https://www.facebook.com/richard.hatcher.9469
-  - platform: twitter
-    url: https://twitter.com/My_Vroom
   - platform: linkedin
     url: https://www.linkedin.com/in/richard-hatcher-93a6343/
 
